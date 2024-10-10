@@ -11,8 +11,8 @@ The types and identities of donors, helping identify which types of donors contr
 ## Dataset Overview
 ### 1.Assignments Table:
 #### Contains information about the specific projects or assignments, such as:
-##### Assignment Name
-##### Geographical Region
-##### Budget
-##### Impact Score
-##### Start and End Dates
+##### >Assignment Name
+##### >Geographical Region
+##### >Budget
+##### >Impact Score
+##### >Start and End Dates
