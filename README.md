@@ -8,3 +8,11 @@ The name, region, duration, and the calculated impact score of each project.
 Financial records tied to specific assignments, allowing analysis of funding trends.
 ### Donors:
 The types and identities of donors, helping identify which types of donors contribute most to which projects or regions.
+## Dataset Overview
+### 1.Assignments Table:
+#### Contains information about the specific projects or assignments, such as:
+##### Assignment Name
+##### Geographical Region
+##### Budget
+##### Impact Score
+##### Start and End Dates
