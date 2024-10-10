@@ -44,7 +44,7 @@ The types and identities of donors, helping identify which types of donors contr
  ###### ),
  ###### ranked_assign AS (
    ######   SELECT a.assignment_name, a.region, a.impact_score, ac.num_total_donations,
-   ######          ROW_NUMBER() OVER (PARTITION BY a.region ORDER BY a.impact_score DESC) AS rank_in_region
+   ######        ROW_NUMBER() OVER (PARTITION BY a.region ORDER BY a.impact_score DESC) AS rank_in_region
  ######     FROM assignments a
   ######    JOIN assign_count ac ON a.assignment_id = ac.assignment_id
   ######    WHERE ac.num_total_donations > 0		
