@@ -1,6 +1,8 @@
 # Ngo-Impact-analysis
 The goal of the project is to gain insights into the effectiveness of assignments (projects) and the contributions from donors to maximize impact and make informed decisions about where to allocate resources.
+
 ![NGO Logo](https://github.com/rishinawani/Ngo-Impact-analysis/blob/main/ngo_project_image.jpg)
+
 ## Overview
 GoodThought NGO conducts various assignments aimed at uplifting underprivileged communities. These assignments are data-rich and can be evaluated based on:
 ### Assignments:
