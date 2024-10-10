@@ -16,3 +16,13 @@ The types and identities of donors, helping identify which types of donors contr
 ##### >Budget
 ##### >Impact Score
 ##### >Start and End Dates
+### 2.Donations Table:
+#### Tracks donations linked to specific assignments:
+##### >Donation ID
+##### >Assignment ID (to link to specific assignments)
+##### >Donor ID (to identify the donor)
+##### >Donation Amount
+### 3.Donors Table
+#### Information about the donors, including:
+##### >Donor ID (to match donations with donor)
+##### >Donor Type (e.g., individual, corporation, etc.)
