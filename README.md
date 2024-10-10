@@ -38,7 +38,7 @@ The types and identities of donors, helping identify which types of donors contr
  ###### LIMIT 5;
 ### 2.Top Regional Impact Assignments Query:
  ###### WITH assign_count AS (
-  ######    SELECT assignment_id, COUNT(donation_id) AS num_total_donations
+  ######  SELECT assignment_id, COUNT(donation_id) AS num_total_donations
    ######    FROM donations
    ######   GROUP BY assignment_id
  ###### ),
