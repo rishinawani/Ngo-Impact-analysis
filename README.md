@@ -28,7 +28,7 @@ The types and identities of donors, helping identify which types of donors contr
 ##### >Donor Type (e.g., individual, corporation, etc.)
 ## Queries
 ### 1.Highest Donation Assignments Query:
-##### SELECT a.assignment_name, a.region, r.donor_type, 
+###### SELECT a.assignment_name, a.region, r.donor_type, 
 ###### ROUND(SUM(d.amount), 2) AS rounded_total_donation_amount
  ###### FROM donations d 
  ###### JOIN assignments a ON d.assignment_id = a.assignment_id
